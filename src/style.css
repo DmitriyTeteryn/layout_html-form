@@ -1,1 +1,20 @@
-/* styles go here */
+.field {
+  display: block;
+}
+
+.big_margin {
+  margin-bottom: 20px;
+}
+
+.small_margin {
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.big_margin:last-child,
+.small_margin:last-child {
+  margin-bottom: 0;
+}
